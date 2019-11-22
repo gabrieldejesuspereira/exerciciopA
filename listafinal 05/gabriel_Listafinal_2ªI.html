@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script language=javascript>
+        numero1=parseFloat(prompt("qual seu salario?"));
+        
+      if(numero1<=280)
+        {    
+            document.write(numero1+"  R$ SALÁRIO antes do reajuste. <br/>");
+            document.write(numero1*0.20+" R$ ="+" AUMENTO aplicado de 20% <br/>");
+            document.write((numero1*0.20)+numero1+" R$ novo SALÁRIO, após aumento");
+        }
+        if(numero1>280 && numero1<=700)
+        {    
+            document.write(numero1+"  R$ SALÁRIO antes do reajuste. <br/>");
+            document.write(numero1*0.15+" R$ ="+" AUMENTO aplicado de 15% <br/>");
+            document.write((numero1*0.15)+numero1+" R$ novo SALÁRIO, após aumento");
+        }
+        if(numero1>700 && numero1<=1500)
+        {    
+            document.write(numero1+"  R$ SALÁRIO antes do reajuste. <br/>");
+            document.write(numero1*0.10+" R$ ="+" AUMENTO aplicado de 10% <br/>");
+            document.write((numero1*0.10)+numero1+" R$ novo SALÁRIO, após aumento");
+        }
+        if(numero1>=1500 )
+        {    
+            document.write(numero1+"  R$ SALÁRIO antes do reajuste. <br/>");
+            document.write(numero1*0.05+" R$ ="+" AUMENTO aplicado de 5% <br/>");
+            document.write((numero1*0.05)+numero1+" R$ novo SALÁRIO, após aumento");
+        }
+</script>
+</head>
+<body>
+    
+</body>
+</html> 

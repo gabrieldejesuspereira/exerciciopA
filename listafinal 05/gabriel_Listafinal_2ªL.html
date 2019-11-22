@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script language=javascript>
+
+    data = prompt(" Dia");
+    mes = parseFloat(prompt(" Mês "));
+    ano = prompt(" Ano ");
+    {
+      if (data >= 1 && data <= 31) {
+        document.write(data + " dd  ");
+      }
+      else {
+        document.write("<br> false ");
+      }
+     
+    }
+    if (mes >= 1 && mes <= 12) {
+      if (mes == "1" || mes == "3" || mes == "5" || mes == "7" || mes == "8" || mes == "10" || mes == "12") {
+        document.write(mes + "  mm  ");
+      }
+      else { document.write("<br/> mes ivalido") }
+      
+    }
+    if (ano >= 1) {
+      document.write(ano + " aa ");
+    }
+
+
+
+
+
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
